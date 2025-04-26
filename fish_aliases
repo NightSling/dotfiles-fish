@@ -1,0 +1,72 @@
+
+# ──────────── Git Aliases ────────────
+alias gic="git clone"                 # git clone
+alias gsta="git status"               # git status
+alias gco="git checkout"              # git checkout
+alias gcm="git commit"                # git commit
+alias gpl="git pull"                  # git pull
+alias gps="git push"                  # git push
+alias gbr="git branch"                # git branch
+alias glog="git log --oneline --graph --decorate --color"  # git log
+
+# ──────────── Compression Aliases ────────────
+alias zipit="zip -r"                  # zip folder or files
+alias gzit="gzip"                     # gzip a file
+alias unzipt="unzip"                  # unzip a file
+alias tarit="tar -czvf"               # tar -c (compress) files into .tar.gz
+alias untar="tar -xzvf"               # untar files (.tar.gz)
+
+# ──────────── File and Directory Operations ────────────
+alias cls="clear"                     # clear terminal screen
+alias ll="exa --icons -la"                     # list files with details
+alias l="exa --icons -l"                       # list files with detailed info
+alias la="exa --icons -la"                     # list all files, including hidden
+alias md="mkdir -p"                   # make directories (with parent directories)
+alias cpv="cp -v"                     # verbose copy (shows progress)
+alias mvv="mv -v"                     # verbose move (shows progress)
+alias rd="rmdir"                      # remove empty directory
+alias cpr="cp -r"                     # copy recursively
+
+# ──────────── System Aliases ────────────
+alias update="sudo dnf update"        # update system on Fedora
+alias reboot="sudo reboot"            # reboot the system
+alias shutdown="sudo shutdown -h now"  # shutdown system
+
+# ──────────── Networking Aliases ────────────
+alias ipinfo="curl ipinfo.io"         # get your public IP information
+alias ports="netstat -tuln"           # show open ports and services
+
+# ──────────── Python Aliases ────────────
+alias python3="python3"               # use python3 explicitly
+alias pip3="pip3"                     # use pip3 explicitly
+alias venv="python3 -m venv"          # create a Python virtual environment
+alias activate="source venv/bin/activate"  # activate a Python virtual environment
+
+# ──────────── Docker Aliases ────────────
+alias dps="docker ps"                 # list running docker containers
+alias dpsa="docker ps -a"             # list all docker containers (running or stopped)
+alias drm="docker rm"                 # remove docker container
+alias drmi="docker rmi"               # remove docker image
+alias dstop="docker stop"             # stop docker container
+alias dstart="docker start"           # start docker container
+
+# ──────────── Miscellaneous Aliases ────────────
+alias du="du -h --max-depth=1"        # disk usage (human-readable)
+alias df="df -h"                      # disk free space (human-readable)
+alias h="history"                     # show command history
+alias j="jobs"                        # show jobs
+alias top="htop"                      # open htop (better task manager)
+
+# ──────────── Nix Aliases ────────────
+alias nixpkgs="nix-env -iA nixpkgs"   # install from nixpkgs
+alias nixup="nixos-rebuild switch"    # update and rebuild NixOS system
+alias nixshell="nix-shell"            # enter a nix-shell environment
+
+# ──────────── Custom Aliases ────────────
+alias gs="git status"                 # quick git status
+alias gb="git branch"                 # quick git branch
+alias ga="git add"                    # quick git add
+alias gc="git commit"                 # quick git commit
+alias gp="git push"                   # quick git push
+alias gl="git log"                    # quick git log
+alias gs=gitstatus                    # quick git status

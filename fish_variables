@@ -1,0 +1,63 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export NIX_PROFILES:/home/daysling/\x2enix\x2dprofile
+SETUVAR --export NIX_SSL_CERT_FILE:/etc/ssl/certs/ca\x2dcertificates\x2ecrt
+SETUVAR --export PYENV_ROOT:/home/daysling/\x2elocal/share/pyenv
+SETUVAR __fish_initialized:3400
+SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
+SETUVAR _fisher_franciscolourenco_2F_done_files:\x7e/\x2econfig/fish/conf\x2ed/done\x2efish
+SETUVAR _fisher_halostatue_2F_fish_2D_direnv_40_v1_files:\x7e/\x2econfig/fish/conf\x2ed/halostatue_fish_direnv\x2efish\x1e\x7e/\x2econfig/fish/completions/direnv\x2efish
+SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:\x7e/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/autopair\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_kidonng_2F_nix_2E_fish_files:\x7e/\x2econfig/fish/conf\x2ed/nix\x2efish
+SETUVAR _fisher_kpbaks_2F_zellij_2E_fish_files:\x7e/\x2econfig/fish/conf\x2ed/zellij\x2efish
+SETUVAR _fisher_matt_2D_ftw_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_diff_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_completions\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
+SETUVAR _fisher_nickeb96_2F_puffer_2D_fish_files:\x7e/\x2econfig/fish/functions/_puffer_fish_expand_bang\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_dots\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_lastarg\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/puffer_fish_key_bindings\x2efish
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_sudope_files:\x7e/\x2econfig/fish/functions/sudope\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/plugin\x2dsudope\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ecatppuccin/fish\x1efranciscolourenco/done\x1ematt\x2dftw/fzf\x2efish\x1eoh\x2dmy\x2dfish/plugin\x2dsudope\x1enickeb96/puffer\x2dfish\x1ejorgebucaran/autopair\x2efish\x1ekpbaks/zellij\x2efish\x1ereitzig/sdkman\x2dfor\x2dfish\x40v2\x2e1\x2e0\x1ekidonng/nix\x2efish\x1ehalostatue/fish\x2ddirenv\x40v1
+SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_40_v2_2E_31_2E_30__files:\x7e/\x2econfig/fish/functions/sdk\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/sdk\x2efish\x1e\x7e/\x2econfig/fish/completions/sdk\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_color_autosuggestion:6e738d
+SETUVAR fish_color_cancel:ed8796
+SETUVAR fish_color_command:8aadf4
+SETUVAR fish_color_comment:8087a2
+SETUVAR fish_color_cwd:eed49f
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:f5a97f
+SETUVAR fish_color_error:ed8796
+SETUVAR fish_color_escape:ee99a0
+SETUVAR fish_color_gray:6e738d
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:8aadf4
+SETUVAR fish_color_host_remote:a6da95
+SETUVAR fish_color_keyword:ed8796
+SETUVAR fish_color_normal:cad3f5
+SETUVAR fish_color_operator:f5bde6
+SETUVAR fish_color_option:a6da95
+SETUVAR fish_color_param:f0c6c6
+SETUVAR fish_color_quote:a6da95
+SETUVAR fish_color_redirection:f5bde6
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d363a4f
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3d363a4f
+SETUVAR fish_color_status:ed8796
+SETUVAR fish_color_user:8bd5ca
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_background:\x1d
+SETUVAR fish_pager_color_completion:cad3f5
+SETUVAR fish_pager_color_description:6e738d
+SETUVAR fish_pager_color_prefix:f5bde6
+SETUVAR fish_pager_color_progress:6e738d
+SETUVAR fish_pager_color_secondary_background:\x1d
+SETUVAR fish_pager_color_secondary_completion:\x1d
+SETUVAR fish_pager_color_secondary_description:\x1d
+SETUVAR fish_pager_color_secondary_prefix:\x1d
+SETUVAR fish_pager_color_selected_background:\x1d
+SETUVAR fish_pager_color_selected_completion:\x1d
+SETUVAR fish_pager_color_selected_description:\x1d
+SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/home/daysling/\x2elocal/share/pyenv/shims\x1e/home/daysling/\x2eyarn/bin\x1e/home/daysling/\x2enix\x2dprofile/bin\x1e/nix/var/nix/profiles/default/bin\x1e/home/daysling/\x2elocal/share/pyenv/bin\x1e/home/daysling/\x2elocal/share/go/bin\x1e/usr/lib/go/bin\x1e/home/daysling/\x2elocal/share/bob/nvim\x2dbin\x1e/home/daysling/\x2elocal/share/cargo/bin\x1e/home/daysling/\x2elocal/share/npm/bin\x1e/home/daysling/\x2elocal/share/pnpm\x1e/home/daysling/\x2elocal/share/nvim/mason/bin\x1e/usr/lib/rustup/bin\x1e/sbin\x1e/bin\x1e/usr/sbin\x1e/usr/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/home/daysling/\x2elocal/bin/color\x2dscripts\x1e/home/daysling/\x2elocal/bin\x1e/nix/store/8qhbdgy7ai0wxqj66zp5z76yfx2s1r4p\x2dzulu\x2dca\x2djdk\x2d23\x2e0\x2e0/bin\x1e/nix/store/pa7plncc30fhm909bis9haakh7gi0qbl\x2dbash\x2dinteractive\x2d5\x2e2p37/bin\x1e/nix/store/9wwkzvmrlv43y71rbw8sbh9bamc62a16\x2dpatchelf\x2d0\x2e15\x2e0/bin\x1e/nix/store/gnd8f9h2ycxrfrvrga508c4n9cxy6720\x2dgcc\x2dwrapper\x2d13\x2e3\x2e0/bin\x1e/nix/store/yg4ahy7gahx91nq80achmzilrjyv0scj\x2dgcc\x2d13\x2e3\x2e0/bin\x1e/nix/store/2kiskq24j06g4qw3xs8zsy2dkawh4gxk\x2dglibc\x2d2\x2e40\x2d66\x2dbin/bin\x1e/nix/store/9m68vvhnsq5cpkskphgw84ikl9m6wjwp\x2dcoreutils\x2d9\x2e5/bin\x1e/nix/store/1mv8pj4nxwnd9bbxshljc9p4cnl3rakj\x2dbinutils\x2dwrapper\x2d2\x2e43\x2e1/bin\x1e/nix/store/22qnvg3zddkf7rbpckv676qpsc2najv9\x2dbinutils\x2d2\x2e43\x2e1/bin\x1e/nix/store/hn8avpxk5p6find87krsjic3dmwdcqxk\x2dmaven\x2d3\x2e9\x2e9/bin\x1e/nix/store/szv0rnbzjv0qbqnvwh01bzs5infmf0ps\x2dgit\x2d2\x2e47\x2e2/bin\x1e/nix/store/m1kfajzyhphsllvgj7ixwvcg67asp9xz\x2dgradle\x2d8\x2e10\x2e2/bin\x1e/nix/store/vc2d1bfy1a5y1195nq7k6p0zcm6q89nx\x2dfindutils\x2d4\x2e10\x2e0/bin\x1e/nix/store/lr3cvmq5ahqcj29p8c6m0fdl1y8krc86\x2ddiffutils\x2d3\x2e10/bin\x1e/nix/store/3ks7b6p43dpvnlnxgvlcy2jaf1np37p2\x2dgnused\x2d4\x2e9/bin\x1e/nix/store/qjsj5vnbfpbg6r7jhd7znfgmcy0arn8n\x2dgnugrep\x2d3\x2e11/bin\x1e/nix/store/3p3fwczck2yn1wwfjnymzkz8w11vbvg7\x2dgawk\x2d5\x2e3\x2e1/bin\x1e/nix/store/pmg7hw4ar16dhx5hk6jswvxy349wzsm7\x2dgnutar\x2d1\x2e35/bin\x1e/nix/store/nc394xps4al1r99ziabqvajbkrhxr5b7\x2dgzip\x2d1\x2e13/bin\x1e/nix/store/yyfzan4mn874v885jy6fs598gjb31c4l\x2dbzip2\x2d1\x2e0\x2e8\x2dbin/bin\x1e/nix/store/m3da56j3r7h4hp0kr8v1xsnk16x900yf\x2dgnumake\x2d4\x2e4\x2e1/bin\x1e/nix/store/8vpg72ik2kgxfj05lc56hkqrdrfl8xi9\x2dbash\x2d5\x2e2p37/bin\x1e/nix/store/zfjv48ikkqn3yhi8zi7lvqvxyscbg87n\x2dpatch\x2d2\x2e7\x2e6/bin\x1e/nix/store/rbns8mzghhqxih4hj2js4mb4s6ivy5d1\x2dxz\x2d5\x2e6\x2e3\x2dbin/bin\x1e/nix/store/p751fjd81h3926ivxsq0x20lz5j7yscc\x2dfile\x2d5\x2e45/bin\x1e/nix/store/f04zhapn8n8w6yrd35s8sd9qmjp8g9ry\x2dpatchelf\x2d0\x2e15\x2e0/bin\x1e/nix/store/fpzl8wa8sgxx3s7hqb6zndi0kszwifj2\x2dcomposer\x2d2\x2e8\x2e5/bin\x1e/nix/store/qwzy9qniaywm3dm162si7qvivhqvg5r0\x2dnodejs\x2d18\x2e20\x2e6/bin\x1e/nix/store/zk7vgm4h5d5sv3wsxmwknixnc1dhmm80\x2dpnpm\x2d10\x2e2\x2e1/bin\x1e/nix/store/7rq9j3ggh28nkszpssdsfaa85ixm1bk7\x2dyarn\x2d1\x2e22\x2e22/bin\x1e/nix/store/wsq9nigw7l260mcvinqly12xy4wj2mkp\x2dphp\x2dwith\x2dextensions\x2d8\x2e3\x2e16/bin\x1e/nix/store/wdap4cr3bnm685f27y9bb6q5b6q18msl\x2dcoreutils\x2d9\x2e5/bin\x1e/nix/store/032xw8dchwjipwqh6b3h70yc3mcmsqld\x2dfindutils\x2d4\x2e10\x2e0/bin\x1e/nix/store/dd7xqz1qwl0di4zb8rzj7r1ds8np9xqs\x2ddiffutils\x2d3\x2e10/bin\x1e/nix/store/bffnm1211li6y431irplzbjbccr0k884\x2dgnused\x2d4\x2e9/bin\x1e/nix/store/4lbfasv335vpk8rbcf3pgkag4rhg8jx8\x2dgnugrep\x2d3\x2e11/bin\x1e/nix/store/xpzl2sf58fqfpl64b1fy1ihxay7k71li\x2dgawk\x2d5\x2e3\x2e1/bin\x1e/nix/store/zlmk040fc3jax9s3gldwp5rfwc1hhajc\x2dgnutar\x2d1\x2e35/bin\x1e/nix/store/chwdy9qaxd13q8zvl0zd5r7ql2q116di\x2dgzip\x2d1\x2e13/bin\x1e/nix/store/hpppxlcfvjzrvvcvhcm47divp65gbwq1\x2dbzip2\x2d1\x2e0\x2e8\x2dbin/bin\x1e/nix/store/y0akgyz13jgxwm968bs8kay47zbxx638\x2dgnumake\x2d4\x2e4\x2e1/bin\x1e/nix/store/fd118hwh7d1ncib4mdw56ylv3g9k0iyj\x2dbash\x2d5\x2e2p37/bin\x1e/nix/store/apqwjgbjj646wk2jkzr67l26djamn481\x2dpatch\x2d2\x2e7\x2e6/bin\x1e/nix/store/rrv4bd5i7rp2m7j8ix4kl8bzijhh8gd3\x2dxz\x2d5\x2e6\x2e3\x2dbin/bin\x1e/nix/store/qraqns84wjffzd8d3dgbdcyxg41czbd6\x2dfile\x2d5\x2e46/bin\x1e/nix/store/xciizs52dag0ps4fg4iy4gn3c8ws43k9\x2ddocker\x2dcompose\x2d2\x2e32\x2e4/bin\x1e/nix/store/1bmfcixbhs5fxv2zzyc45grx3xgc90j9\x2dnodejs\x2d20\x2e18\x2e3/bin
+SETUVAR zellij_fish_dump_full_screen:0
+SETUVAR zellij_fish_update_tab_name_on_preexec:0
+SETUVAR zellij_fish_update_tab_name_on_preexec_blacklist:pwd\x1ecd\x1erm\x1emv
+SETUVAR zellij_fish_update_tab_name_when_cwd_changes:1
