@@ -1,3 +1,3 @@
-function ip --description 'alias ip=ip -c a'
-    command ip -c a $argv
+function ip --description 'alias ip=ip -c'
+    command ip -c $argv
 end
