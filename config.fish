@@ -22,8 +22,6 @@ status is-interactive; and begin
     set fish_tmux_autostart true
 end
 
-alias hx="helix"
-
 #set -Ux PYENV_ROOT $HOME/.local/share/pyenv
 set -U fish_user_paths $PYENV_ROOT/shims $fish_user_paths
 # Load pyenv automatically by appending
