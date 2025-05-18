@@ -7,8 +7,6 @@ source ~/.config/fish/user_variables.fish
 source ~/.config/fish/abbreviations.fish
 source ~/.config/fish/fish_aliases
 
-#bass source ~/.nvm/nvm.sh --no-use ';' nvm use default >/dev/null 2>&1
-
 # pnpm
 set -gx PNPM_HOME "/home/daysling/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
@@ -26,5 +24,8 @@ end
 set -U fish_user_paths $PYENV_ROOT/shims $fish_user_paths
 # Load pyenv automatically by appending
 # the following to ~/.config/fish/config.fish:
-#set -gx PATH $HOME/.sdkman/candidates/java/current/bin $PATH
 set -g fish_abbreviation_max_suggestions 0
+
+# Generated for envman. Do not edit.
+test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
+mise activate fish | source

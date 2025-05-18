@@ -57,11 +57,6 @@ alias h="history"                     # show command history
 alias j="jobs"                        # show jobs
 alias top="htop"                      # open htop (better task manager)
 
-# ──────────── Nix Aliases ────────────
-alias nixpkgs="nix-env -iA nixpkgs"   # install from nixpkgs
-alias nixup="nixos-rebuild switch"    # update and rebuild NixOS system
-alias nixshell="nix-shell"            # enter a nix-shell environment
-
 # ──────────── Custom Aliases ────────────
 alias gs="git status"                 # quick git status
 alias gb="git branch"                 # quick git branch

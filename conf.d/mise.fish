@@ -1,3 +1,1 @@
-if type -q mise
-    mise activate fish | source
-end
+set -x MISE_FISH_AUTO_ACTIVATE 1
