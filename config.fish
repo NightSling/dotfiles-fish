@@ -26,6 +26,9 @@ set -U fish_user_paths $PYENV_ROOT/shims $fish_user_paths
 # the following to ~/.config/fish/config.fish:
 set -g fish_abbreviation_max_suggestions 0
 
+set -gx PATH "/home/daysling/.config/herd-lite/bin" $PATH
+set -gx PHP_INI_SCAN_DIR "/home/daysling/.config/herd-lite/bin" $PHP_INI_SCAN_DIR
+
 # Generated for envman. Do not edit.
 test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
 mise activate fish | source
