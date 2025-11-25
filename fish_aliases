@@ -18,9 +18,9 @@ alias untar="tar -xzvf"               # untar files (.tar.gz)
 
 # ──────────── File and Directory Operations ────────────
 alias cls="clear"                     # clear terminal screen
-alias ll="exa --icons -la"                     # list files with details
-alias l="exa --icons -l"                       # list files with detailed info
-alias la="exa --icons -la"                     # list all files, including hidden
+alias ll="eza --icons -la"                     # list files with details
+alias l="eza --icons -l"                       # list files with detailed info
+alias la="eza --icons -la"                     # list all files, including hidden
 alias md="mkdir -p"                   # make directories (with parent directories)
 alias cpv="cp -v"                     # verbose copy (shows progress)
 alias mvv="mv -v"                     # verbose move (shows progress)

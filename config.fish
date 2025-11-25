@@ -13,6 +13,7 @@ if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
 status is-interactive; and begin
     set fish_tmux_config /home/daysling/.config/tmux/tmux.conf
     set fish_tmux_unicode true
@@ -25,9 +26,6 @@ set -U fish_user_paths $PYENV_ROOT/shims $fish_user_paths
 # the following to ~/.config/fish/config.fish:
 set -g fish_abbreviation_max_suggestions 0
 
-set -gx PATH "/home/daysling/.config/herd-lite/bin" $PATH
-set -gx PHP_INI_SCAN_DIR "/home/daysling/.config/herd-lite/bin" $PHP_INI_SCAN_DIR
-
 # Generated for envman. Do not edit.
 test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
 mise activate fish | source
@@ -35,8 +33,3 @@ mise activate fish | source
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
-
-# Added by LM Studio CLI (lms)
-set -gx PATH $PATH /home/daysling/.lmstudio/bin
-# End of LM Studio CLI section
-
