@@ -10,9 +10,8 @@ source ~/.config/fish/fish_aliases
 # pnpm
 set -gx PNPM_HOME "/home/daysling/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-    set -gx PATH "$PNPM_HOME" $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
 end
-
 # pnpm end
 status is-interactive; and begin
     set fish_tmux_config /home/daysling/.config/tmux/tmux.conf
@@ -32,3 +31,12 @@ set -gx PHP_INI_SCAN_DIR "/home/daysling/.config/herd-lite/bin" $PHP_INI_SCAN_DI
 # Generated for envman. Do not edit.
 test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
 mise activate fish | source
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /home/daysling/.lmstudio/bin
+# End of LM Studio CLI section
+
